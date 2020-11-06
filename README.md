@@ -1,3 +1,3 @@
-# Potentiometer Board
-An edge board containing two potentiometers, two bar graph leds and two buttons
+# 7 Segment Display board
+An edge board containing qty(2), 4 charector 7 segment displays
 
