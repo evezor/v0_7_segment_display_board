@@ -24,11 +24,11 @@ SEGMENTS_2 = ["E11", "E10", "SD_DETECT", "E8", "E7", "E6", "E5", "E12"]
 
 for i in range(len(DIGITS_1)):
     DIGITS_1[i] = Pin(DIGITS_1[i], Pin.OUT)
-    DIGITS_1[i].value(1)
+    DIGITS_1[i].value(1)  #Be sure to write these pins HIGH during initilization
     
 for i in range(len(DIGITS_2)):
     DIGITS_2[i] = Pin(DIGITS_2[i], Pin.OUT)
-    DIGITS_2[i].value(1)
+    DIGITS_2[i].value(1)  #Be sure to write these pins HIGH during initilization
 
 for i in range(len(SEGMENTS_1)):
     SEGMENTS_1[i] = Pin(SEGMENTS_1[i], Pin.OUT)
