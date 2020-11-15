@@ -5,10 +5,10 @@ from pyb import CAN, ADC
 import utime
 
 
-print("starting digital input x5 board test")
+print("starting 7 segment display board test")
 print("v1.0")
 print("initializing")
-can = CAN(1, CAN.LOOPBACK)
+can = CAN(1, CAN.NORMAL)
 can.setfilter(0, CAN.LIST16, 0, (123, 124, 125, 126))
 
 
@@ -74,11 +74,12 @@ def chk_buttons():
         
 
 def send():
-    can.send('message!', 123)   # send a message with id 123
+    can.send('EVZRTST', 123)   # send a message with id 123
     
 def get():
     mess = can.recv(0)
     print(mess)
+    segments_chase()
         
 def segments_chase():
     print("Display 1 chase sequence")
@@ -105,3 +106,5 @@ while True:
         segments_chase()
         utime.sleep_ms(200)
         
+     if(can.any(0)):
+        get()
