@@ -3,17 +3,19 @@
 
 An edge board containing qty(2), 4 charector 7 segment displays
 
-![sm]()
+![sm](https://github.com/evezor/v0_7_segment_display_board/blob/master/pics/sm1.PNG)
 
-![sm2]()
+![sm1](https://github.com/evezor/v0_7_segment_display_board/blob/master/pics/sm.PNG)
 
-![front]()
+![sm2](https://github.com/evezor/v0_7_segment_display_board/blob/master/pics/sm2.PNG)
 
-![back]()
+![front](https://github.com/evezor/v0_7_segment_display_board/blob/master/pics/front.PNG)
 
-![copper]()
+![back](https://github.com/evezor/v0_7_segment_display_board/blob/master/pics/back.PNG)
 
-![sch]()
+![copper](https://github.com/evezor/v0_7_segment_display_board/blob/master/pics/copper.PNG)
+
+![sch](https://github.com/evezor/v0_7_segment_display_board/blob/master/cad_files/7_SEGMENT.svg)
 
 
 source files can be found here: https://github.com/evezor/v0_7_segment_display_board
